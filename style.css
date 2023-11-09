@@ -1,0 +1,183 @@
+
+.moon{
+	background-image: url("image/pexels-burak-the-weekender-704623.jpg");
+	height: 100%;
+}
+.into-co{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.mp > img{
+	height: 200px;
+	width: 200px;
+	border: 4px solid #5D7E37;
+	border-radius: 50%;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.food-co{
+	margin-top: 15px;
+	display: flex;
+	gap: 5px;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.fdim{
+	height: 300px;
+	width: 400px;
+	padding: 5px;
+	border-radius: 1rem;
+	box-shadow: 1px 2px 10px 2px black;
+}
+body{
+	background-color: antiquewhite;
+	padding: 0;
+	margin: 0;
+}
+.food-t{
+	margin-top: 5px;
+}
+.food-t > p{
+	margin-top: 2px
+}
+.travel-back{
+	background-color: #E4DFDF;
+}
+.img-skills{
+	height: 300px;	
+}
+.co-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr ;
+	gap: 15px;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+.course-img{
+	height: 300px;
+	width: 500px;
+	border-radius: 5px;
+	
+}
+.third{
+	background-color: #E4DFDF;
+}
+.last{
+	background-color: #c0d6e4;
+	margin-top: 5rem;
+}
+.last-list{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style: none;
+	text-decoration: none;
+}
+a{
+	text-decoration: none !important;
+	color: black;
+}
+@media (max-width: 600px) {
+	.food-co {
+		margin-top: 15px;
+		display: flex;
+		gap: 5px;
+		flex-direction: column;
+		justify-content: center;
+		height: 100%;
+		align-items: center;
+	}
+
+	.fdim {
+		height: 100px;
+		width: 200px;
+		padding: 5px;
+		border-radius: 0.5rem;
+		box-shadow: 1px 2px 10px 2px black;
+		float: left;
+		margin-right: 2rem;
+	}
+	.food-t{
+		margin-top: 5px;
+	}
+	.food-t > p{
+		margin-top: 2px;
+		
+	}
+}
+@media (max-width: 768px) {
+	.food-co {
+		margin-top: 15px;
+		display: flex;
+		gap: 5px;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.fdim {
+		height: 100px;
+		width: 200px;
+		padding: 5px;
+		border-radius: 0.5rem;
+		box-shadow: 1px 2px 10px 2px black;
+		float: left;
+		margin-right: 2rem;
+	}
+	.food-t{
+		margin-top: 5px;
+	}
+	.food-t > p{
+		margin-top: 2px
+	}
+	.co-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr ;
+		gap: 15px;
+		padding-top: 2rem;
+		padding-bottom: 1rem;
+	}
+	.course-img{
+		height: 300px;
+		width: 300px;
+		border-radius: 5px;
+		
+	}s
+	.third{
+		background-color: #E4DFDF;
+	}
+}
+@media (max-width: 992px) {
+	.food-co {
+		margin-top: 15px;
+		display: flex;
+		gap: 5px;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.fdim {
+		height: 100px;
+		width: 200px;
+		padding: 5px;
+		border-radius: 1rem;
+		box-shadow: 1px 2px 10px 2px black;
+		float: left;
+		margin-right: 2rem;
+	}
+	.food-t{
+		margin-top: 5px;
+	}
+	.food-t > p{
+		margin-top: 2px
+	}
+}
+
+
+
